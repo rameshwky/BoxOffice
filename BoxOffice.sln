@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0633F470-5180-41FF-BB9D-C5A091F5557B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7F3B22E2-18B3-46FD-B3FC-21DC65F6FDB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{55F5D835-799E-4F27-BD91-C692A5DCFF4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1189E02D-C201-47A3-B5B4-5EC17A60BE81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B14B90F9-E801-4498-B61F-BD5D5341815D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxOffice.Domain", "src\Core\Domain\BoxOffice.Domain\BoxOffice.Domain.csproj", "{4A0A683A-E35E-45F9-9B57-C7E1F262F164}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxOffice.Application", "src\Core\Application\BoxOffice.Application\BoxOffice.Application.csproj", "{225E3B5D-6D43-443B-B5AC-DFAADE2A075C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxOffice.Persistence", "src\Infrastructure\BoxOffice.Persistence\BoxOffice.Persistence.csproj", "{56B5CFEE-3E2C-4C59-BBED-6D98F7950D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxOffice.UI", "src\Presentation\BoxOffice.UI\BoxOffice.UI.csproj", "{8FEB60AA-4A7B-48F4-8767-F3C6B8D8B204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A0A683A-E35E-45F9-9B57-C7E1F262F164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0A683A-E35E-45F9-9B57-C7E1F262F164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0A683A-E35E-45F9-9B57-C7E1F262F164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0A683A-E35E-45F9-9B57-C7E1F262F164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225E3B5D-6D43-443B-B5AC-DFAADE2A075C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225E3B5D-6D43-443B-B5AC-DFAADE2A075C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225E3B5D-6D43-443B-B5AC-DFAADE2A075C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225E3B5D-6D43-443B-B5AC-DFAADE2A075C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B5CFEE-3E2C-4C59-BBED-6D98F7950D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B5CFEE-3E2C-4C59-BBED-6D98F7950D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B5CFEE-3E2C-4C59-BBED-6D98F7950D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B5CFEE-3E2C-4C59-BBED-6D98F7950D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEB60AA-4A7B-48F4-8767-F3C6B8D8B204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEB60AA-4A7B-48F4-8767-F3C6B8D8B204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEB60AA-4A7B-48F4-8767-F3C6B8D8B204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEB60AA-4A7B-48F4-8767-F3C6B8D8B204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1189E02D-C201-47A3-B5B4-5EC17A60BE81} = {0633F470-5180-41FF-BB9D-C5A091F5557B}
+		{B14B90F9-E801-4498-B61F-BD5D5341815D} = {0633F470-5180-41FF-BB9D-C5A091F5557B}
+		{4A0A683A-E35E-45F9-9B57-C7E1F262F164} = {1189E02D-C201-47A3-B5B4-5EC17A60BE81}
+		{225E3B5D-6D43-443B-B5AC-DFAADE2A075C} = {B14B90F9-E801-4498-B61F-BD5D5341815D}
+		{56B5CFEE-3E2C-4C59-BBED-6D98F7950D50} = {7F3B22E2-18B3-46FD-B3FC-21DC65F6FDB2}
+		{8FEB60AA-4A7B-48F4-8767-F3C6B8D8B204} = {55F5D835-799E-4F27-BD91-C692A5DCFF4D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E9F9554-2EB4-412E-8666-A12B1F509EF9}
+	EndGlobalSection
+EndGlobal
