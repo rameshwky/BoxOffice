@@ -22,9 +22,9 @@ Follow these steps to get your development environment set up:
      ```
      dotnet build
      ```
-  4. Add migration within BoxOffice.Persistence by running:
+  4. Run migration within BoxOffice.Persistence by running:
     ```
-    dotnet ef migrations add InitialCreate
+    dotnet ef database update
     ```
   5. Launch [https://localhost:55218/swagger] to see list of API's and schema in swagger.
     
